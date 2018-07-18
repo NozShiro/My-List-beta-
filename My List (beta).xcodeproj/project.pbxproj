@@ -14,6 +14,8 @@
 		8C42C0F920FEF99000107872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C42C0F720FEF99000107872 /* LaunchScreen.storyboard */; };
 		8C42C10420FEF99100107872 /* My_List__beta_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C10320FEF99100107872 /* My_List__beta_Tests.swift */; };
 		8C42C10F20FEF99100107872 /* My_List__beta_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C10E20FEF99100107872 /* My_List__beta_UITests.swift */; };
+		8C42C11D20FEFAB900107872 /* AddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C11C20FEFAB900107872 /* AddController.swift */; };
+		8C42C11F20FF061B00107872 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C42C11E20FF061B00107872 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8C42C10A20FEF99100107872 /* My List (beta)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My List (beta)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C42C10E20FEF99100107872 /* My_List__beta_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_List__beta_UITests.swift; sourceTree = "<group>"; };
 		8C42C11020FEF99100107872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C42C11C20FEFAB900107872 /* AddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddController.swift; sourceTree = "<group>"; };
+		8C42C11E20FF061B00107872 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8C42C0EE20FEF98F00107872 /* AppDelegate.swift */,
 				8C42C0F020FEF98F00107872 /* ViewController.swift */,
 				8C42C0F220FEF98F00107872 /* Main.storyboard */,
+				8C42C11E20FF061B00107872 /* CalendarViewController.swift */,
+				8C42C11C20FEFAB900107872 /* AddController.swift */,
 				8C42C0F520FEF99000107872 /* Assets.xcassets */,
 				8C42C0F720FEF99000107872 /* LaunchScreen.storyboard */,
 				8C42C0FA20FEF99000107872 /* Info.plist */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C42C11F20FF061B00107872 /* CalendarViewController.swift in Sources */,
+				8C42C11D20FEFAB900107872 /* AddController.swift in Sources */,
 				8C42C0F120FEF98F00107872 /* ViewController.swift in Sources */,
 				8C42C0EF20FEF98F00107872 /* AppDelegate.swift in Sources */,
 			);
